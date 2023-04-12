@@ -15,7 +15,7 @@ struct RSAKeyGenerator {
     
     
     func generate() throws  -> Output {
-        let rsa = try RSA(keySize: 2048)
+        let rsa = try RSA(n: 2048, e: 3)
         let privateKey = (try rsa.externalRepresentation()).bytes
         let publicKey = (try rsa.publicKeyExternalRepresentation()).bytes
         return .init(publicKey: publicKey, privateKey: privateKey)
