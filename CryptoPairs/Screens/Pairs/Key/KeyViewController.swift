@@ -21,7 +21,7 @@ class KeyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         copyButton.layer.cornerRadius = 12
-        imageView.image = generateQRCode(from: key?.publicKey ?? "")
+        imageView.image = generateQRCode(from: key?.publicKeyFormatted ?? "")
     }
 
     func generateQRCode(from string: String) -> UIImage? {
