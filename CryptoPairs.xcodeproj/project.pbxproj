@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0148C129E44E2A00B6FD41 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C0148C029E44E2A00B6FD41 /* CryptoSwift */; };
+		7C58DEBD29E68BD9003C33B2 /* KeyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58DEBB29E68BD9003C33B2 /* KeyTableViewCell.swift */; };
+		7C58DEBE29E68BD9003C33B2 /* KeyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C58DEBC29E68BD9003C33B2 /* KeyTableViewCell.xib */; };
+		7C58DEC129E68BEA003C33B2 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58DEC029E68BEA003C33B2 /* NibLoadable.swift */; };
+		7C58DEC629E68DEC003C33B2 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58DEC429E68DEC003C33B2 /* KeyViewController.swift */; };
+		7C58DEC729E68DEC003C33B2 /* KeyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C58DEC529E68DEC003C33B2 /* KeyViewController.xib */; };
+		7C7CB42929E6471700E42F19 /* RSAKeyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7CB42829E6471700E42F19 /* RSAKeyGenerator.swift */; };
+		7C7CB42B29E6485C00E42F19 /* CryptoKeyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7CB42A29E6485C00E42F19 /* CryptoKeyGenerator.swift */; };
+		7C7CB42D29E6492F00E42F19 /* PrivateKeyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7CB42C29E6492F00E42F19 /* PrivateKeyGenerator.swift */; };
+		7C7CB42F29E6527500E42F19 /* KeyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7CB42E29E6527500E42F19 /* KeyGenerator.swift */; };
+		7C7CB43129E657BB00E42F19 /* KeysStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7CB43029E657BB00E42F19 /* KeysStorage.swift */; };
+		7C7CB43429E658DE00E42F19 /* Codable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7CB43329E658DE00E42F19 /* Codable+Dictionary.swift */; };
 		7CDAC45529E44938000B53BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC45429E44938000B53BB /* AppDelegate.swift */; };
 		7CDAC45729E44938000B53BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC45629E44938000B53BB /* SceneDelegate.swift */; };
-		7CDAC45929E44938000B53BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC45829E44938000B53BB /* ViewController.swift */; };
-		7CDAC45C29E44938000B53BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDAC45A29E44938000B53BB /* Main.storyboard */; };
 		7CDAC45E29E4493A000B53BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDAC45D29E4493A000B53BB /* Assets.xcassets */; };
 		7CDAC46129E4493A000B53BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDAC45F29E4493A000B53BB /* LaunchScreen.storyboard */; };
 		7CDAC46C29E4493A000B53BB /* CryptoPairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC46B29E4493A000B53BB /* CryptoPairsTests.swift */; };
 		7CDAC47629E4493A000B53BB /* CryptoPairsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC47529E4493A000B53BB /* CryptoPairsUITests.swift */; };
 		7CDAC47829E4493A000B53BB /* CryptoPairsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC47729E4493A000B53BB /* CryptoPairsUITestsLaunchTests.swift */; };
+		7CDAC48529E449A8000B53BB /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC48429E449A8000B53BB /* MainRouter.swift */; };
+		7CDAC48A29E44AD3000B53BB /* PairsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC48829E44AD3000B53BB /* PairsViewController.swift */; };
+		7CDAC48B29E44AD3000B53BB /* PairsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDAC48929E44AD3000B53BB /* PairsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C58DEBB29E68BD9003C33B2 /* KeyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTableViewCell.swift; sourceTree = "<group>"; };
+		7C58DEBC29E68BD9003C33B2 /* KeyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyTableViewCell.xib; sourceTree = "<group>"; };
+		7C58DEC029E68BEA003C33B2 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		7C58DEC429E68DEC003C33B2 /* KeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyViewController.swift; sourceTree = "<group>"; };
+		7C58DEC529E68DEC003C33B2 /* KeyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyViewController.xib; sourceTree = "<group>"; };
+		7C58DEC929E69C45003C33B2 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../Downloads/OpenSSL-master/iphoneos/lib/libssl.a"; sourceTree = "<group>"; };
+		7C58DECA29E69C45003C33B2 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../Downloads/OpenSSL-master/iphoneos/lib/libcrypto.a"; sourceTree = "<group>"; };
+		7C58DECB29E69C75003C33B2 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		7C58DECC29E69C75003C33B2 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		7C7CB42829E6471700E42F19 /* RSAKeyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAKeyGenerator.swift; sourceTree = "<group>"; };
+		7C7CB42A29E6485C00E42F19 /* CryptoKeyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoKeyGenerator.swift; sourceTree = "<group>"; };
+		7C7CB42C29E6492F00E42F19 /* PrivateKeyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKeyGenerator.swift; sourceTree = "<group>"; };
+		7C7CB42E29E6527500E42F19 /* KeyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyGenerator.swift; sourceTree = "<group>"; };
+		7C7CB43029E657BB00E42F19 /* KeysStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysStorage.swift; sourceTree = "<group>"; };
+		7C7CB43329E658DE00E42F19 /* Codable+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Dictionary.swift"; sourceTree = "<group>"; };
 		7CDAC45129E44938000B53BB /* CryptoPairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDAC45429E44938000B53BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CDAC45629E44938000B53BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7CDAC45829E44938000B53BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CDAC45B29E44938000B53BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CDAC45D29E4493A000B53BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CDAC46029E4493A000B53BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CDAC46229E4493A000B53BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +75,9 @@
 		7CDAC47129E4493A000B53BB /* CryptoPairsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoPairsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDAC47529E4493A000B53BB /* CryptoPairsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPairsUITests.swift; sourceTree = "<group>"; };
 		7CDAC47729E4493A000B53BB /* CryptoPairsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPairsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CDAC48429E449A8000B53BB /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		7CDAC48829E44AD3000B53BB /* PairsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairsViewController.swift; sourceTree = "<group>"; };
+		7CDAC48929E44AD3000B53BB /* PairsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PairsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0148C129E44E2A00B6FD41 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +106,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C58DEBA29E68BC3003C33B2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C58DEBB29E68BD9003C33B2 /* KeyTableViewCell.swift */,
+				7C58DEBC29E68BD9003C33B2 /* KeyTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7C58DEBF29E68BE5003C33B2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7C58DEC029E68BEA003C33B2 /* NibLoadable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7C58DEC229E68DD6003C33B2 /* Pair */ = {
+			isa = PBXGroup;
+			children = (
+				7C58DEBA29E68BC3003C33B2 /* Cells */,
+				7CDAC48829E44AD3000B53BB /* PairsViewController.swift */,
+				7CDAC48929E44AD3000B53BB /* PairsViewController.xib */,
+			);
+			path = Pair;
+			sourceTree = "<group>";
+		};
+		7C58DEC329E68DE1003C33B2 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				7C58DEC429E68DEC003C33B2 /* KeyViewController.swift */,
+				7C58DEC529E68DEC003C33B2 /* KeyViewController.xib */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+		7C58DEC829E69C44003C33B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C58DECB29E69C75003C33B2 /* libcrypto.a */,
+				7C58DECC29E69C75003C33B2 /* libssl.a */,
+				7C58DECA29E69C45003C33B2 /* libcrypto.a */,
+				7C58DEC929E69C45003C33B2 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C7CB42729E6470300E42F19 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				7C7CB42829E6471700E42F19 /* RSAKeyGenerator.swift */,
+				7C7CB42A29E6485C00E42F19 /* CryptoKeyGenerator.swift */,
+				7C7CB42C29E6492F00E42F19 /* PrivateKeyGenerator.swift */,
+				7C7CB42E29E6527500E42F19 /* KeyGenerator.swift */,
+				7C7CB43029E657BB00E42F19 /* KeysStorage.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		7C7CB43229E658D400E42F19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7C7CB43329E658DE00E42F19 /* Codable+Dictionary.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7CDAC44829E44938000B53BB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +180,7 @@
 				7CDAC46A29E4493A000B53BB /* CryptoPairsTests */,
 				7CDAC47429E4493A000B53BB /* CryptoPairsUITests */,
 				7CDAC45229E44938000B53BB /* Products */,
+				7C58DEC829E69C44003C33B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +199,11 @@
 			children = (
 				7CDAC45429E44938000B53BB /* AppDelegate.swift */,
 				7CDAC45629E44938000B53BB /* SceneDelegate.swift */,
-				7CDAC45829E44938000B53BB /* ViewController.swift */,
-				7CDAC45A29E44938000B53BB /* Main.storyboard */,
+				7CDAC48429E449A8000B53BB /* MainRouter.swift */,
+				7C58DEBF29E68BE5003C33B2 /* Protocols */,
+				7C7CB43229E658D400E42F19 /* Extensions */,
+				7C7CB42729E6470300E42F19 /* Objects */,
+				7CDAC48629E44ABE000B53BB /* Screens */,
 				7CDAC45D29E4493A000B53BB /* Assets.xcassets */,
 				7CDAC45F29E4493A000B53BB /* LaunchScreen.storyboard */,
 				7CDAC46229E4493A000B53BB /* Info.plist */,
@@ -127,6 +228,23 @@
 			path = CryptoPairsUITests;
 			sourceTree = "<group>";
 		};
+		7CDAC48629E44ABE000B53BB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7CDAC48729E44AC8000B53BB /* Pairs */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7CDAC48729E44AC8000B53BB /* Pairs */ = {
+			isa = PBXGroup;
+			children = (
+				7C58DEC329E68DE1003C33B2 /* Key */,
+				7C58DEC229E68DD6003C33B2 /* Pair */,
+			);
+			path = Pairs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +261,9 @@
 			dependencies = (
 			);
 			name = CryptoPairs;
+			packageProductDependencies = (
+				7C0148C029E44E2A00B6FD41 /* CryptoSwift */,
+			);
 			productName = CryptoPairs;
 			productReference = 7CDAC45129E44938000B53BB /* CryptoPairs.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +336,9 @@
 				Base,
 			);
 			mainGroup = 7CDAC44829E44938000B53BB;
+			packageReferences = (
+				7C0148BF29E44E2A00B6FD41 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 7CDAC45229E44938000B53BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +356,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CDAC46129E4493A000B53BB /* LaunchScreen.storyboard in Resources */,
+				7C58DEBE29E68BD9003C33B2 /* KeyTableViewCell.xib in Resources */,
+				7C58DEC729E68DEC003C33B2 /* KeyViewController.xib in Resources */,
+				7CDAC48B29E44AD3000B53BB /* PairsViewController.xib in Resources */,
 				7CDAC45E29E4493A000B53BB /* Assets.xcassets in Resources */,
-				7CDAC45C29E44938000B53BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +384,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDAC45929E44938000B53BB /* ViewController.swift in Sources */,
+				7C7CB43129E657BB00E42F19 /* KeysStorage.swift in Sources */,
+				7CDAC48529E449A8000B53BB /* MainRouter.swift in Sources */,
+				7C7CB42929E6471700E42F19 /* RSAKeyGenerator.swift in Sources */,
+				7C7CB42D29E6492F00E42F19 /* PrivateKeyGenerator.swift in Sources */,
+				7C7CB43429E658DE00E42F19 /* Codable+Dictionary.swift in Sources */,
+				7C58DEC629E68DEC003C33B2 /* KeyViewController.swift in Sources */,
 				7CDAC45529E44938000B53BB /* AppDelegate.swift in Sources */,
+				7CDAC48A29E44AD3000B53BB /* PairsViewController.swift in Sources */,
+				7C58DEBD29E68BD9003C33B2 /* KeyTableViewCell.swift in Sources */,
+				7C7CB42F29E6527500E42F19 /* KeyGenerator.swift in Sources */,
+				7C58DEC129E68BEA003C33B2 /* NibLoadable.swift in Sources */,
+				7C7CB42B29E6485C00E42F19 /* CryptoKeyGenerator.swift in Sources */,
 				7CDAC45729E44938000B53BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +433,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7CDAC45A29E44938000B53BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CDAC45B29E44938000B53BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7CDAC45F29E4493A000B53BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,16 +566,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F4DVA2UNP8;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = CryptoPairs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DK.CryptoPairs;
@@ -466,16 +600,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F4DVA2UNP8;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = CryptoPairs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DK.CryptoPairs;
@@ -602,6 +742,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C0148BF29E44E2A00B6FD41 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C0148C029E44E2A00B6FD41 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C0148BF29E44E2A00B6FD41 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7CDAC44929E44938000B53BB /* Project object */;
 }

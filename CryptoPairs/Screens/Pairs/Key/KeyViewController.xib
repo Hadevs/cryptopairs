@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyViewController" customModule="CryptoPairs" customModuleProvider="target">
+            <connections>
+                <outlet property="copyButton" destination="k0F-kV-Q5G" id="0qy-1i-DdC"/>
+                <outlet property="imageView" destination="6zg-Q4-EkV" id="9Ko-42-lVS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6zg-Q4-EkV">
+                    <rect key="frame" x="16" y="91" width="361" height="361"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6zg-Q4-EkV" secondAttribute="height" id="0fR-Mq-LYY"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0F-kV-Q5G">
+                    <rect key="frame" x="16" y="747" width="361" height="55"/>
+                    <color key="backgroundColor" red="1" green="0.58399999141693115" blue="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="kIy-AR-eYv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="tintColor" name="AccentColor"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="titleEdgeInsets" minX="-32" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Copy private key" image="copy">
+                        <color key="titleColor" name="AccentColor"/>
+                    </state>
+                    <connections>
+                        <action selector="copyButtonAction" destination="-1" eventType="touchUpInside" id="YQB-Ly-S1k"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6zg-Q4-EkV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="4qC-Xx-QK4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6zg-Q4-EkV" secondAttribute="trailing" constant="16" id="RZh-CX-sjw"/>
+                <constraint firstItem="k0F-kV-Q5G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="WCR-q3-CSh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="k0F-kV-Q5G" secondAttribute="bottom" constant="16" id="rDr-BX-yex"/>
+                <constraint firstItem="6zg-Q4-EkV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="t0t-GE-6ay"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="k0F-kV-Q5G" secondAttribute="trailing" constant="16" id="uAX-i9-Ect"/>
+            </constraints>
+            <point key="canvasLocation" x="138" y="-1"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="copy" width="24" height="24"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.58399999141693115" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
